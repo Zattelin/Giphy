@@ -8,7 +8,7 @@
         // Then dynamicaly generating buttons for each Cartoon in the array
         var a = $("<button>");
         // Adding a class of Cartoon to our button
-        a.addClass("Cartoon");
+        a.addClass("Cartoon rainbow-button");
         // Adding a data-attribute
         a.attr("data-name", cartoons[i]);
         // Providing the initial button text
